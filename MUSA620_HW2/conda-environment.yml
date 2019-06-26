@@ -1,0 +1,13 @@
+name: musa
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - altair
+  - seaborn
+  - vega_datasets
+  - notebook
+  - vega
