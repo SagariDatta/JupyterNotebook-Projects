@@ -1,0 +1,268 @@
+/* Body i.e., slide style */
+body {
+    padding: 0;
+    overflow: hidden;
+    font-family: Century Gothic;
+    font-size: 18px;
+    background-color: #e0e0e0;
+}
+
+/* Font for heading text */
+.mainheading {
+  bottom:90%;
+  position: absolute;
+  left: 75px;
+  right: 320px;
+  font-size: 36px;
+  color: #ffffff;
+  padding: 15px;
+  background-color: #5f7787;
+  border-radius: 0%;
+  margin-right: 65px;
+  text-align: center;
+}
+
+/* Font for subheading text */
+#subheading {
+  position: absolute;
+  top: 35px;
+  left:1110px;
+  padding: 5px;
+  font-size: 34px;
+  color: #5f7787;
+  border-radius: 4%;
+  margin-right: 60px;
+}
+
+/* Font for text */
+#text {
+  position: absolute;
+  top: 140px;
+  left:1110px;
+  padding: 5px;
+  font-size: 16px;
+  color: #5f7787;
+  border-radius: 4%;
+  margin-right: 60px;
+}
+
+/* Next button style */
+#next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  right:335px;
+  margin-top:-20px;
+  color: white;
+  margin: 2px 2px;
+  border-radius: 25%;
+  border: none;
+  padding: 16px;
+  background-color: #5f7787;
+}
+
+/* Previous button style */
+#prev {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  left:25px;
+  margin-top:-20px;
+  color: white;
+  margin: 2px 2px;
+  border-radius: 25%;
+  border: none;
+  padding: 16px;
+  background-color: #5f7787;
+}
+
+/* Map style */
+.map {
+    position: absolute;
+    left: 75px;
+    right: 385px;
+    height: 100%;
+    top: 10%;
+}
+
+/* Legend style for census tracts */
+.legend {
+    line-height: 18px;
+    color: #555;
+    bottom: 110px;
+    right: 60px;
+    font-size: 15px;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 10px;
+    opacity: 0.7;
+}
+
+/* Legend style for serviec requests */
+#open {
+  display: none;
+  position: absolute;
+  top: 455px;
+  left:1110px;
+  font-size: 18px;
+  color: #5f7787;
+  margin-right: 60px;
+}
+#closed {
+  display: none;
+  position: absolute;
+  top: 455px;
+  left:1180px;
+  font-size: 18px;
+  color: #5f7787;
+  margin-right: 60px;
+}
+#request {
+  display: none;
+  position: absolute;
+  top: 455px;
+  left:1265px;
+  font-size: 18px;
+  color: #5f7787;
+  margin-right: 60px;
+}
+
+#largeCircle2 {
+  display: none;
+  position: absolute;
+  top: 490px;
+  left:1130px;
+  width: 18px;
+  height: 18px;
+  background-color: #47b534;
+  border-radius: 50%;
+  margin-right: 60px;
+  opacity: 0.65;
+}
+#largeCircle3 {
+  display: none;
+  position: absolute;
+  top: 530px;
+  left:1130px;
+  width: 18px;
+  height: 18px;
+  background-color: #e28f41;
+  border-radius: 50%;
+  margin-right: 60px;
+  opacity: 0.65;
+}
+#largeCircle4 {
+  display: none;
+  position: absolute;
+  top: 570px;
+  left:1130px;
+  width: 18px;
+  height: 18px;
+  background-color: #aa5c6f;
+  border-radius: 50%;
+  margin-right: 60px;
+  opacity: 0.65;
+}
+#largeCircle5 {
+  display: none;
+  position: absolute;
+  top: 610px;
+  left:1130px;
+  width: 18px;
+  height: 18px;
+  background-color: #e0cf6d;
+  border-radius: 50%;
+  margin-right: 60px;
+  opacity: 0.65;
+}
+#smallCircle2 {
+  display: none;
+  position: absolute;
+  top: 495px;
+  left:1210px;
+  padding: 5px;
+  width: 4px;
+  height: 4px;
+  background-color: #47b534;
+  border-radius: 50%;
+  margin-right: 60px;
+  opacity: 0.65;
+}
+#smallCircle3 {
+  display: none;
+  position: absolute;
+  top: 535px;
+  left:1210px;
+  padding: 5px;
+  width: 4px;
+  height: 4px;
+  background-color: #e28f41;
+  border-radius: 50%;
+  margin-right: 60px;
+  opacity: 0.65;
+}
+#smallCircle4 {
+  display: none;
+  position: absolute;
+  top: 575px;
+  left:1210px;
+  padding: 5px;
+  width: 4px;
+  height: 4px;
+  background-color: #aa5c6f;
+  border-radius: 50%;
+  margin-right: 60px;
+  opacity: 0.65;
+}
+#smallCircle5 {
+  display: none;
+  position: absolute;
+  top: 615px;
+  left:1210px;
+  padding: 5px;
+  width: 4px;
+  height: 4px;
+  background-color: #e0cf6d;
+  border-radius: 50%;
+  margin-right: 60px;
+  opacity: 0.65;
+}
+#req2 {
+  display: none;
+  position: absolute;
+  top: 490px;
+  left:1270px;
+  font-size: 16px;
+  color: #47b534;
+  margin-right: 60px;
+}
+#req3 {
+  display: none;
+  position: absolute;
+  top: 520px;
+  left:1270px;
+  font-size: 16px;
+  color: #e28f41;
+  margin-right: 60px;
+}
+#req4 {
+  display: none;
+  position: absolute;
+  top: 570px;
+  left:1270px;
+  font-size: 16px;
+  color: #aa5c6f;
+  margin-right: 60px;
+}
+#req5 {
+  display: none;
+  position: absolute;
+  top: 600px;
+  left:1270px;
+  font-size: 16px;
+  color: #d8bf58;
+  margin-right: 60px;
+}
