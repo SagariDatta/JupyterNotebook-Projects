@@ -7,82 +7,22 @@ body {
     background-color: #e0e0e0;
 }
 
-/* Font for heading text */
-.mainheading {
-  bottom:90%;
-  position: absolute;
-  left: 75px;
-  right: 320px;
-  font-size: 36px;
-  color: #ffffff;
-  padding: 15px;
-  background-color: #5f7787;
-  border-radius: 0%;
-  margin-right: 65px;
-  text-align: center;
-}
-
-/* Font for subheading text */
-#subheading {
-  position: absolute;
-  top: 35px;
-  left:1110px;
-  padding: 5px;
-  font-size: 34px;
-  color: #5f7787;
-  border-radius: 4%;
-  margin-right: 60px;
-}
-
-/* Font for text */
-#text {
-  position: absolute;
-  top: 140px;
-  left:1110px;
-  padding: 5px;
-  font-size: 16px;
-  color: #5f7787;
-  border-radius: 4%;
-  margin-right: 60px;
-}
-
-/* Next button style */
-#next {
-  cursor: pointer;
-  position: absolute;
-  top: 60%;
-  right:335px;
-  margin-top:-20px;
-  color: white;
-  margin: 2px 2px;
-  border-radius: 25%;
-  border: none;
-  padding: 16px;
-  background-color: #5f7787;
-}
-
-/* Previous button style */
-#prev {
-  cursor: pointer;
-  position: absolute;
-  top: 60%;
-  left:25px;
-  margin-top:-20px;
-  color: white;
-  margin: 2px 2px;
-  border-radius: 25%;
-  border: none;
-  padding: 16px;
-  background-color: #5f7787;
-}
-
-/* Map style */
+/* Map style
 .map {
     position: absolute;
     left: 75px;
     right: 385px;
     height: 100%;
     top: 10%;
+}
+*/
+
+.map {
+  position: absolute;
+  left: 5.25%;
+  right: 36.95%;
+  height: 100%;
+  top: 10%;
 }
 
 /* Legend style for census tracts */
@@ -91,7 +31,7 @@ body {
     color: #555;
     bottom: 110px;
     right: 60px;
-    font-size: 15px;
+    font-size: 1vw;
 }
 .legend i {
     width: 18px;
@@ -101,168 +41,245 @@ body {
     opacity: 0.7;
 }
 
+/* Font for heading text
+.mainheading {
+  bottom:90%;
+  position: absolute;
+  left: 75px;
+  right: 320px;
+  font-size: 2vw;
+  color: #ffffff;
+  padding: 15px;
+  background-color: #5f7787;
+  border-radius: 0%;
+  margin-right: 65px;
+  text-align: center;
+} */
+
+.mainheading {
+  bottom:90%;
+  position: absolute;
+  left: 9.05%;
+  font-size: 2vw;
+  color: #5f7787;
+  padding: 15px;
+  background-color:none;
+  border-radius: 0%;
+  margin-right: 65px;
+  text-align: center;
+}
+
+/* Font for subheading text */
+#subheading {
+  position: absolute;
+  top: 12%;
+  left:68%;
+  font-size: 1.7vw;
+  color: #5f7787;
+}
+
+/* Font for text */
+#text {
+  position: absolute;
+  top: 17%;
+  left:68%;
+  font-size: 1.2vw;
+  color: #5f7787;
+  border-radius: 4%;
+  padding-right: 4%;
+}
+
+/* Next button style */
+#next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  right:33.05%;
+  color: white;
+  border-radius: 25%;
+  border: none;
+  padding:1%;
+  background-color: #5f7787;
+}
+
+/* Previous button style */
+#prev {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  left:1.35%;
+  color: white;
+  border-radius: 25%;
+  border: none;
+  padding: 1%;
+  background-color: #5f7787;
+}
+
+
 /* Legend style for serviec requests */
+.legendHeadings {
+  display: none;
+  position: absolute;
+  top: 50%;
+  font-size: 1.2vw;
+  color: #5f7787;
+  padding-right: 2%;
+}
+
+
 #open {
   display: none;
   position: absolute;
-  top: 455px;
-  left:1110px;
-  font-size: 18px;
+  top: 55%;
+  left:70%;
+  font-size: 1.2vw;
   color: #5f7787;
-  margin-right: 60px;
+  padding-right: 2%;
 }
+
+
 #closed {
   display: none;
   position: absolute;
-  top: 455px;
-  left:1180px;
-  font-size: 18px;
+  top: 55%;
+  left:76%;
+  font-size: 1.2vw;
   color: #5f7787;
-  margin-right: 60px;
+  padding-right: 2%;
 }
+
 #request {
   display: none;
   position: absolute;
-  top: 455px;
-  left:1265px;
-  font-size: 18px;
+  top: 55%;
+  left:82%;
+  font-size: 1.2vw;
   color: #5f7787;
-  margin-right: 60px;
+  padding-right: 4%;
 }
 
 #largeCircle2 {
   display: none;
   position: absolute;
-  top: 490px;
-  left:1130px;
-  width: 18px;
-  height: 18px;
+  top: 60%;
+  left:71%;
+  width: 1.2vw;
+  height: 1.2vw;
   background-color: #47b534;
   border-radius: 50%;
-  margin-right: 60px;
   opacity: 0.65;
 }
 #largeCircle3 {
   display: none;
   position: absolute;
-  top: 530px;
-  left:1130px;
-  width: 18px;
-  height: 18px;
+  top: 65%;
+  left:71%;
+  width: 1.2vw;
+  height: 1.2vw;
   background-color: #e28f41;
   border-radius: 50%;
-  margin-right: 60px;
   opacity: 0.65;
 }
 #largeCircle4 {
   display: none;
   position: absolute;
-  top: 570px;
-  left:1130px;
-  width: 18px;
-  height: 18px;
+  top: 70%;
+  left:71%;
+  width: 1.2vw;
+  height: 1.2vw;
   background-color: #aa5c6f;
   border-radius: 50%;
-  margin-right: 60px;
   opacity: 0.65;
 }
 #largeCircle5 {
   display: none;
   position: absolute;
-  top: 610px;
-  left:1130px;
-  width: 18px;
-  height: 18px;
+  top:75%;
+  left:71%;
+  width: 1.2vw;
+  height: 1.2vw;
   background-color: #e0cf6d;
   border-radius: 50%;
-  margin-right: 60px;
   opacity: 0.65;
 }
+
 #smallCircle2 {
   display: none;
   position: absolute;
-  top: 495px;
-  left:1210px;
-  padding: 5px;
-  width: 4px;
-  height: 4px;
+  top: 60.5%;
+  left:78%;
+  width: 0.8vw;
+  height: 0.8vw;
   background-color: #47b534;
   border-radius: 50%;
-  margin-right: 60px;
   opacity: 0.65;
 }
 #smallCircle3 {
   display: none;
   position: absolute;
-  top: 535px;
-  left:1210px;
-  padding: 5px;
-  width: 4px;
-  height: 4px;
+  top: 65.5%;
+  left:78%;
+  width: 0.8vw;
+  height: 0.8vw;
   background-color: #e28f41;
   border-radius: 50%;
-  margin-right: 60px;
   opacity: 0.65;
 }
 #smallCircle4 {
   display: none;
   position: absolute;
-  top: 575px;
-  left:1210px;
-  padding: 5px;
-  width: 4px;
-  height: 4px;
+  top: 70.5%;
+  left:78%;
+  width: 0.8vw;
+  height: 0.8vw;
   background-color: #aa5c6f;
   border-radius: 50%;
-  margin-right: 60px;
   opacity: 0.65;
 }
 #smallCircle5 {
   display: none;
   position: absolute;
-  top: 615px;
-  left:1210px;
-  padding: 5px;
-  width: 4px;
-  height: 4px;
+  top: 75.5%;
+  left:78%;
+  width: 0.8vw;
+  height: 0.8vw;
   background-color: #e0cf6d;
   border-radius: 50%;
-  margin-right: 60px;
   opacity: 0.65;
 }
 #req2 {
   display: none;
   position: absolute;
-  top: 490px;
-  left:1270px;
-  font-size: 16px;
+  top: 60%;
+  left:82%;
+  font-size: 1vw;
   color: #47b534;
-  margin-right: 60px;
+  padding-right:4%;
 }
 #req3 {
   display: none;
   position: absolute;
-  top: 520px;
-  left:1270px;
-  font-size: 16px;
+  top: 65%;
+  left:82%;
+  font-size: 1vw;
   color: #e28f41;
-  margin-right: 60px;
+  padding-right:4%;
 }
 #req4 {
   display: none;
   position: absolute;
-  top: 570px;
-  left:1270px;
-  font-size: 16px;
+  top: 70%;
+  left:82%;
+  font-size: 1vw;
   color: #aa5c6f;
-  margin-right: 60px;
+  padding-right:4%;
 }
 #req5 {
   display: none;
   position: absolute;
-  top: 600px;
-  left:1270px;
-  font-size: 16px;
+  top: 75%;
+  left:82%;
+  font-size: 1vw;
   color: #d8bf58;
-  margin-right: 60px;
+  padding-right:4%;
 }

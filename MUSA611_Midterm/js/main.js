@@ -42,7 +42,7 @@ var lightsURL = "https://phl.carto.com/api/v2/sql?q=SELECT * FROM public_cases_f
 //Census tract data with socio-economic features obtained from https://www.opendataphilly.org/dataset/dvrpc-2015-indicators-of-potential-disadvantage
 //The dataset link on opendataphilly.org was not working on my mac - there was a CORS error despite enabling chrome extensions that should have taken care of the error
 //Therefore, I downloaded the dataset and then pushed it to github and used the raw data
-var tractsURL = "https://raw.githubusercontent.com/SagariDatta/Midterm_MUSA611_Spring2019/master/Tracts.geojson.json?token=AZgckAcesxDtDzujiGYbNAwQBwtpcIPhks5cs6MtwA%3D%3D"
+var tractsURL = "https://raw.githubusercontent.com/SagariDatta/Portfolio-Projects/master/MUSA611_Midterm/Tracts.geojson.json"
 //var tractsURL = "https://raw.githubusercontent.com/SagariDatta/Midterm_MUSA611_Spring2019/master/Tracts.geojson.json?token=AZgckAcesxDtDzujiGYbNAwQBwtpcIPhks5cs6MtwA%3D%3D"
 //R geojson output file - service request aggregated to census tracts
 var tracts_summ = "https://raw.githubusercontent.com/SagariDatta/test/master/tractsPoly.geojson"
